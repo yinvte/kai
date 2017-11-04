@@ -1,0 +1,20 @@
+#coding=utf-8
+
+import os
+#改变PYTHON中当前的工作目录
+os.chdir('E:\\python\\python_excise_program\\yin1104')
+file2=file("home_page_yin.txt", "a+")
+# "a+"表示追加模式
+#new_context = "C++" + '\n'
+#file1.write(new_context)
+#file1.write(new_context)
+file2=open('home_page_yin.txt','a')
+file2.write("尹小凯" + '\n')
+file2.write("尹小凯" + '\n')
+C1=tc.Circle1(42)
+file2.write(C1 + '\n')
+#file1.write('/n')
+#file1.close()
+#file2=open('home_page_yin.txt','w')
+#file2.write("尹小凯123" + '\n')
+file2.close()
