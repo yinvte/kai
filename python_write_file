@@ -1,6 +1,5 @@
 #coding=utf-8
-#注意上一行一定要加，表示文件
-++++代码+
+#注意上一行一定要加，表示文件字符代码格式
 import os
 #改变PYTHON中当前的工作目录
 os.chdir('E:\\python\\python_excise_program\\yin1104')
